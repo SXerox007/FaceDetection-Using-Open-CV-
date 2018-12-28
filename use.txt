@@ -1,0 +1,3 @@
+source secure-key
+
+docker run -d -p 8080:8080 -e "MB_KEY=$MB_KEY" machinebox/facebox
